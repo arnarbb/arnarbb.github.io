@@ -1,4 +1,17 @@
 
- p{ 
-  color:red;
-}
+p{ 
+    color:red;
+  }
+
+  h1{
+      color:orange;
+      font-family: arial;
+      text-decoration: underline;
+  }
+
+
+  body {
+      margin: 800px;
+  }
+
+
