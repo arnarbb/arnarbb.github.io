@@ -13,6 +13,5 @@ color: white;
 
 
 div {
-margin: top right ;
-    color:red;
+posision: sticky;
 }
