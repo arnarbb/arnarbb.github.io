@@ -1,0 +1,12 @@
+body{
+  background-color: gray;
+  
+  
+}
+
+
+button{
+   border-style:dashed;
+   border-width: 1px;
+   border-color:red;
+}
