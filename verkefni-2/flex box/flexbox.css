@@ -1,0 +1,69 @@
+
+
+* {
+  box-sizing: border-box;
+  
+}
+.row {
+  
+  display: flex;
+  flex-flow: row;
+    
+}
+
+.row div {
+  width: 100%;
+  text-align: center;
+
+  }
+.box{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.col {
+  
+  display: flex;
+  flex-flow: column;
+  
+}
+
+.col div {
+  width: 100%;
+  text-align: center;
+  
+  
+  
+}
+
+body {
+  max-width: 60em;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+footer p {
+  text-align: center;
+}
+
+.gulur {
+  background-color: yellow;
+  order:1;
+}
+.raudur {
+  background-color: red;
+  order:2;
+}
+.graenn {
+  background-color: lime;
+  order:3;
+}
+.blar {
+  background-color: cyan;
+order:4;
+}
+.box {
+  font-size: 1.2em;
+  height: 5em;
+
+}
