@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|VT323&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Press+Start+2P|VT323&display=swap');
+*{
+  box-sizing: border-box;
+}
+body,html {
+  margin: 0px;
+  height: 100%;
+}
+
+body {
+  background-color:#6991A8;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 10% 40% 50% ;
+  grid-template-rows: 25%  auto auto 10%;
+  grid-template-areas:
+    " nav header header  "    
+    " nav main main  "
+    "nav aside article    "
+    " nav footer footer  ";
+}
+
+
+header {
+  background-image:linear-gradient(#6991A8,#2f3d45);
+  margin:0;
+  padding:0;
+  grid-area: header;
+  
+  
+  
+}
+header ul{
+  margin:0;
+  padding:0;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  list-style-type: none;
+  height:100%;
+
+}
+
+
+#stórt {
+  margin:0;
+  padding:0;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 60px;
+  color:black;
+  justify-content: flex-end;
+}
+
+nav {
+  background-image:linear-gradient(#6991A8,#2f3d45,#6991A8);
+  grid-area: nav;
+  
+  display: flex;
+  align-items: center;
+  
+  height: 100%;
+  justify-content: center;
+}
+
+aside {
+  background-color:#8FACBE;
+  grid-area: aside;
+  
+}
+article {
+  background-color:#8FACBE;
+  grid-area: article;
+  
+}
+
+main {
+  background-image:linear-gradient(#2f3d45,#8FACBE);
+  grid-area: main;
+  
+
+}
+
+footer {
+  background-color:#2f3d45;
+  grid-area: footer;
+ 
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+h4{
+  font-family: 'VT323', monospace;
+  font-size: 40px
+}
+p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+p, h4 {
+  margin: 10px;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style-type: none;
+  height: 100%;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+
+  list-style-type: none;
+}
+
+/* ul li{
+ 
+} */
+
+li a {
+  font-family: 'Press Start 2P', cursive;
+  color:black;
+  text-decoration: none;
+}
+
+
