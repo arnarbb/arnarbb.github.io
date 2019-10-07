@@ -13,7 +13,7 @@ body {
   margin: 0;
   display: grid;
   grid-template-columns: 50% 25% 25%;
-  grid-template-rows:  7% 35% auto 13%;
+  grid-template-rows:  7% auto auto 13%;
   grid-template-areas:
     " nav nav nav "
     " header header header "    
