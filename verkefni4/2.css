@@ -89,14 +89,17 @@ header nav{
 
 
 .innermenu{            
-    display: flex;
-    justify-content: space-evenly;
+    display: inline;
+    
     margin:0;
-    padding:5px;
+    padding:10px 0px;
     background-color:#0063CC;
     
 }
 .efri a{
+    display:inline;
+    border-right:1px solid white;
+    padding:10px 21.5px;;
     color:white;
     text-decoration: none;
 
