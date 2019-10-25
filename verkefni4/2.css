@@ -54,17 +54,19 @@ header h1,header a,footer,footer a {
 
 section p, section h3{
     margin:0;
-    padding:7px 0px;
+    
 }
 header{
     height: 20vh; 
+    min-height: 150px;
 }
 header p{
     color:yellow;
 }
 header h1,header a{
     position: relative;
-    top:60px;    
+    top:60px;
+    bottom:5px;    
 }
 header nav,header p{
     text-align: right;  
@@ -76,6 +78,7 @@ header nav{
 }
 
 .efri{
+    min-height: 600px;
     height: 80vh;
     padding-top:20px;
 }
@@ -117,36 +120,19 @@ header nav{
     font-size: 50px;
     text-decoration: none;
 }
-.neðri a{
-    color:orange;
-}
 
-.neðri a:hover{
+
+a:hover{
     text-decoration: none;
     background:lightblue;
-    padding:5px;
-    border-radius: 60%;
+    
+    
 }
-.neðri a:visited{
+a:visited{
     color:gray;
 }
 
-.neðri a:active{
-    background-color: yellow;
-}
-
-.a a:active{
-    background-color: yellow;
-}
-.s a:active{
-    background-color: yellow;
-}
-.d a:active{
-    background-color: yellow;
-}
-.f a:active{
-    background-color: yellow;
-}
-.g a:active{
+a:active{
+    color:black;
     background-color: yellow;
 }
