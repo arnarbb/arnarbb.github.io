@@ -2,11 +2,11 @@
 
 body,html {
     
-    height: 200vh;
+    height: 100vh;
     margin: 0; /* tek út sjálgefið 10px margin */
     /* font-family: ;*/
     font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
-    background-image:linear-gradient(#014993,#002E5F);
+    background-image:linear-gradient(#002E5F);
 }
 h1 {
     
