@@ -6,7 +6,7 @@ body,html {
     margin: 0; /* tek út sjálgefið 10px margin */
     /* font-family: ;*/
     font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
-    background-image:linear-gradient(#002E5F);
+    background-color:#034991;
 }
 h1 {
     
