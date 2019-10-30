@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+* {
+    box-sizing: border-box;
+    
+     
+}
+
+body {
+    background-color:gray;
+    margin: 0; /* tek út sjálgefið 10px margin */
+    /* font-family: ;*/
+    font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
+}
+h1 {
+    
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 2.5em;
+}
+header h1,header a,footer,footer a {
+    color:white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
+/* grid */
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.gap-4 {
+    grid-gap: 4em;
+}
+
+main{ 
+    
+    
+        
+    background-image:linear-gradient(#C6C696,#959564);
+}
+
+section p, section h3{
+    margin:0;
+    
+}
+header{
+   font-size: 30px;
+    text-align: center;
+    height: 20vh; 
+    min-height: 150px;
+}
+
+
+ 
+
+header nav{
+    text-align: right;  
+    
+    
+}
+header nav{
+    word-spacing: 20px;;
+}
+footer{
+  text-align:center;
+}
+footer ul{
+  margin:50;
+  padding:5;
+  display:flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  
+}
+.efri{
+    min-height: 600px;
+    height: 80vh;
+    padding-top:20px;
+}
+
+.neðri {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.innermenu{            
+    display: inline;
+    
+    margin:0;
+    padding:10px 0px;
+    background-color:black;
+    
+}
+.efri a{
+    display:inline;
+    
+    padding:10px 21.5px;;
+    color:white;
+    text-decoration: none;
+
+}
+.veggir{
+  border-right:1px solid white;
+}
+
+.topbutt{
+    color:white;
+    position: fixed;
+    right:20px;
+    bottom:30px;
+    padding:0px 20px;
+    background-color: blue;
+    border-radius:50%;
+    border:2px solid white;
+    font-size: 50px;
+    text-decoration: none;
+}
+ 
+main a:hover{
+  color:yellow;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+.ul1{
+  border: solid ;
+  border-width: 0px 0px 2px 0px;
+  border-color: #4CAF50;
+}
+.ul2{
+  border: solid ;
+  border-width: 0px 0px 2px 0px;
+  border-color: #4CAF50;
+}
+nav ul li {
+  float: left;
+}
+ .ser{
+ color:#4CAF50;
+ }
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav ul li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+  
+}
