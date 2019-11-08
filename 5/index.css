@@ -41,6 +41,10 @@ header h1,header a,footer,footer a {
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
+.col-5 {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);    
+}
 .gap-4 {
     grid-gap: 4em;
 }
@@ -131,13 +135,27 @@ ul {
 
 /* footer*/
 
-
+footer {
+    height: 400px;
+}
     
 .footer-litur {
     background-color: black;
 }
+footer h1 {
+    font-family: 'Yeon Sung', cursive;
+    color:red;
+    margin: 0;
+    font-size: 70px;
+}
 
-
+footer a {
+    line-height: 40px;
+    font-size: larger;
+}
+.footer-nav {
+    width: 100%;
+}
 
 
 
@@ -174,6 +192,9 @@ a:active{
   
   height: 100%;
 }
+
+
+
 
 
 
