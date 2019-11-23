@@ -6,7 +6,7 @@
 	<meta author="Guðmundur">
 	<title>Verkefni 2</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="mindir.css">
+	<link rel="stylesheet" type="text/css" href="css.css">
 </head>
 <body> 
     <nav class="topnav">
@@ -19,7 +19,12 @@
     </nav>
 	<header>
 		<h1>Sveigjanleg hönnun - <i>Myndanotkun</i></h1>
-		<img src="/img/rose-960.jpg" alt="Roses">
+		
+		<picture>
+			<source media="(max-width: 37.5em)" srcset="/img/rose-480.jpg">
+			<source media="(max-width: 48em)" srcset="/img/rose-960.jpg">
+			<img src="/img/rose-1600.jpg" alt="Chris standing up holding his daughter Elva">
+		</picture>
 	</header>
 	<section class="content">
 		<article class="midja">
