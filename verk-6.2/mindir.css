@@ -4,7 +4,6 @@
 /*heimild: https://gridbyexample.com/examples/example13/ */
 
 /* ====== GRID Area ====== 
-
 .topnav {
 grid-area: topnav; 
 }
@@ -27,7 +26,6 @@ grid-area: vinstri;
 .haegri {
 grid-area: haegri; 
 }
-
 /* ====== GRID Template Areas ===== */
 
 body {
@@ -155,6 +153,11 @@ border: 1px solid orange;
 .myndabox {
 width: 162px; /* ath! klasinn er með fasta breidd*/
 }
+
+header img{
+  width: 480px;
+}
+
 /*  ========================================
 Viðmið - breakpoints 30em = 480px + 
 ========================================*/
@@ -162,11 +165,13 @@ Viðmið - breakpoints 30em = 480px +
 @media screen and (min-width: 30em) {
   /* kóði sem yfirritar fyrri skipanir og nýjar skipanir sem eiga við 30em skjástærð */
 
-}
 
-header img{
+
+.topmind{
   margin: 0 auto;
-  width: 480px;
+  width: 960px;
+  background-color:black;
+  background-size: cover;
 }
 .myndabox{
   margin: 0 auto;
@@ -175,6 +180,8 @@ header img{
 .myndabox img{
   width: 100%;
 }
+}
+
 
 /*  ========================================
 Viðmið - breakpoints 37.5em = 600px + 
@@ -182,14 +189,14 @@ Viðmið - breakpoints 37.5em = 600px +
 
 @media screen and (min-width: 37.5em) {
   /* kóði sem yfirritar fyrri skipanir og nýjar skipanir sem eiga við 37.5em skjástærð */
+  header img{
+    width: 960px;
+  }
   .topmenu li{
     width: 50%;
     float: left;
   }
-  header img{
-    
-    width: 960px;
-  }
+
   .myndabox {
     display: grid;
     grid-template-columns: repeat(2, 1fr);    
@@ -243,19 +250,21 @@ Viðmið - breakpoints 37.5em = 600px +
     grid-area: haegri; 
     }
 }
+
 /* ========================================
 Viðmið - breakpoints 48em = 760px +
 ======================================== */
 
 @media screen and (min-width: 48em) {  
   /* kóði sem yfirritar fyrri skipanir og nýjar skipanir sem eiga við 48em skjástærð */  
+  
+  header img{
+    width: 960px;
+  }
   .topmenu {
     display: flex;    
   }
-  .midja{
-    
-    
-  }
+ 
 
   .myndabox {
     display: flex;
@@ -316,7 +325,9 @@ Viðmið - breakpoints 60em = 960px +
 
 @media screen and (min-width: 60em) { 
   /* kóði sem yfirritar fyrri skipanir og nýjar skipanir sem eiga við 60em skjástærð */  
-  
+  header img{
+    width: 1600px;
+  }
 }
 /* ========================================
 Viðmið - breakpoints 80em = 1280px +
