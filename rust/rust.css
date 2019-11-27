@@ -1,6 +1,7 @@
 
 
 
+
 * {
   box-sizing: border-box;  
 }
@@ -79,8 +80,15 @@ body {
 
 /* leftnav */
 
-
-
+div button{
+  /* position: absolute; */
+  /* width: 40px;  */
+  box-shadow: 4px 5px 30px rgba(0,0, 0, 0.4);
+  border-radius: 90px;
+  transform: scale(1.05);
+  background-color:rgba(205,65,43,0);
+  color:white;
+}
 
 
 
@@ -162,13 +170,21 @@ div div div img:hover{
   text-align: center;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . .";
+}
+
 .text-sec p{
-  
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: large;
-  color: white;
+  color: rgba(247, 247, 247, 0.801);
   margin: 10px  20px;
 }
 .text-sec h1{
+  letter-spacing: 2px;
   font-family: 'Bebas Neue', cursive;
   font-size: xx-large;
   color: rgba(255, 255, 255, 0.863);
@@ -251,4 +267,3 @@ div div div img:hover{
 @media screen and (max-width: 30em) {
   
 }
-
