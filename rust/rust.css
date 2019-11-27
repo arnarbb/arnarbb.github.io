@@ -1,0 +1,254 @@
+
+
+
+* {
+  box-sizing: border-box;  
+}
+
+
+
+body {
+  margin:0;
+  padding:0;
+
+  background-color: #302e29;
+
+  background-image: url("https://files.facepunch.com/garry/1b1011b1/test.png?1");
+  
+  background-attachment: fixed;  
+}
+/* nav */
+.nav{
+  display: flex;
+  
+}
+
+.baðir-nav{
+  width: 40%;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}  
+
+.baðir-nav ul{ 
+  margin:0;
+  padding:0;
+  height: 100%;
+  display: flex;  
+  justify-content: space-evenly;
+  
+  list-style-type: none;  
+}
+.baðir-nav li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  text-align: center;
+
+  
+}
+.baðir-nav a{  
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  font-size: 35px;
+  color:darkgray;
+  font-family: 'Bebas Neue', cursive;
+}
+.baðir-nav li:hover{
+  background-color:rgba(205,65,43,0.6);
+  color:#1E2020;
+}
+
+.baðir-nav a:hover{
+  color:#1E2020;
+}
+
+/* leftnav */
+
+/* leftnav */
+
+/* leftnav */
+
+/* leftnav */
+
+/* leftnav */
+
+
+
+
+
+
+
+/* /leftnav */
+/* takki */
+.takki{
+  transition: background-color .5s ease-in-out, color .5s ease-in-out;
+  
+}
+
+/* takki */
+/* rightnav */
+
+
+
+
+
+
+/* /rightnav */
+
+/* rust-logo */
+.rust { 
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+.rustlogo{    
+  width: 100%;
+}
+/* /rust-logo */
+
+/* /nav */
+#rustvid {
+  width: 100%;
+  justify-content:center;
+  display: flex;
+}
+
+
+
+
+
+
+
+div div div img{
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition:         transform .5s ease-in-out;
+}
+div div div img:hover{
+      cursor: default;
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+}
+
+/* myndaboxin */
+.myndabox{
+  padding: 0;
+  margin:0;
+  display: grid;  
+  grid-template-columns: repeat(2, 1fr);
+  height: auto;
+
+}
+
+.mynda-sec{
+  padding: 0;
+  margin: 0;
+
+  height: auto;
+}
+.text-sec{
+  margin: 0;
+  padding: 0;
+
+  
+
+  height: auto;
+  text-align: center;
+}
+
+.text-sec p{
+  
+  font-size: large;
+  color: white;
+  margin: 10px  20px;
+}
+.text-sec h1{
+  font-family: 'Bebas Neue', cursive;
+  font-size: xx-large;
+  color: rgba(255, 255, 255, 0.863);
+}
+
+.mynd{
+  width: 100%;
+  display: flex;
+}
+/* /myndaboxin  */
+
+@media screen and (max-width: 80em) { 
+  
+
+}
+
+@media screen and (max-width: 60em) {
+  
+  .text-sec p{
+    font-size: 14px;
+  }
+  
+  .text-sec h1{
+    font-size: x-large;
+  } 
+  
+}
+
+
+
+@media screen and (max-width: 48em) { 
+  
+  
+  
+  .baðir-nav{
+    height: 50px;
+  }
+
+  .baðir-nav a{
+    font-size: 25px;
+  
+  }
+
+  .myndabox{
+   
+    display: grid;  
+    grid-template-columns: 100%;
+    grid-template-rows: ;
+    grid-template-areas:        
+      "mynd"
+      "texti";   
+  }
+
+  .myndabox{
+    
+  }
+  .mynda-sec-2{
+    grid-area: mynd;     
+  }
+  
+  .text-sec-2 {
+    grid-area: texti;    
+  }
+  .text-sec h1{
+    font-size: xx-large;
+  }
+  .text-sec p{
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  
+  .baðir-nav a{
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 30em) {
+  
+}
+
