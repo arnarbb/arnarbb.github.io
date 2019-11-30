@@ -167,14 +167,40 @@ div div div img:hover{
   height: auto;
   text-align: center;
 }
+/* grid-container */
+.art-texti {
+  display: flex;
+  flex-direction: column;
+  background: #222121b2;
+  margin: 10px;
+  text-align: center;
+  
+}
+
+.art-texti h1, .art-texti h2{
+  margin: 0;
+  padding: 0;
+  font-family: 'Archivo Black';
+  color: rgba(255, 255, 255, 0.849);
+ 
+}
 
 .grid-container {
+  margin: 10px;
+  padding: 20px;
+  background: #222121b2;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: ". . . . ." ". . . . ." ". . . . ." ". . . . ." ". . . . .";
+  grid-template-areas: "auto auto auto auto auto" "auto auto auto auto auto" "auto auto auto auto auto" "auto auto auto auto auto" "auto auto auto auto auto";
 }
 
+.grid-container div{
+  display: flex;
+  margin: 1px;
+}
+
+/* /grid-container */
 .text-sec p{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: large;
@@ -200,6 +226,15 @@ div div div img:hover{
 }
 
 @media screen and (max-width: 60em) {
+  .grid-container {
+    margin: 10px;
+    padding: 20px;
+    background: #222121b2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+    grid-template-areas: "auto auto auto " " auto auto auto" " auto auto auto" " auto auto auto" " auto auto auto";
+  }
   
   .text-sec p{
     font-size: 14px;
@@ -255,6 +290,15 @@ div div div img:hover{
 }
 
 @media screen and (max-width: 37.5em) {
+  .grid-container {
+    margin: 10px;
+    padding: 20px;
+    background: #222121b2;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+    grid-template-areas: "auto auto" " auto auto" " auto auto" " auto auto"  " auto auto";
+  }
   
   .baðir-nav a{
     font-size: 20px;
@@ -265,3 +309,4 @@ div div div img:hover{
 @media screen and (max-width: 30em) {
   
 }
+
