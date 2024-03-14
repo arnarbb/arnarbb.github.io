@@ -1,6 +1,10 @@
 body {
     background-color: #212121;
 }
+::-webkit-scrollbar {  /* SmÃ¡ halla twist */
+    width: 0px;
+    background: transparent; 
+}
 
 .headercenter {
     text-align: center;
@@ -16,6 +20,11 @@ p{color: whitesmoke;}
     position: absolute;
     height:40%;
 }
+.date{
+    position:absolute;
+    margin-left:4%;
+    margin-top:-1%;
+}
 
 .fuckyou{
     width:50%;
@@ -26,49 +35,26 @@ p{color: whitesmoke;}
     text-align: center;
 }
 .parent {
-
     align-items: center;
-
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    
-    }
-    
-.div1 img {
-    height:100%;
-    width:100%;
 }
-.div2 img {
-    height:100%;
-    width:100%;
-}
-.div3 img {
-    height:100%;
-    width:100%;
-}
-.div4 img{
+
+.div1 img,
+.div2 img,
+.div3 img,
+.div4 img,
+.div5 img,
+.div6 img,
+.div7 img,
+.div8 img {
     height: 100%;
     width: 100%;
 }
-.div5 img{
-    height: 100%;
-    width: 100%;
-}
-.div6 img{
-    height: 100%;
-    width: 100%;
-}
-.div7 img{
-    height: 100%;
-    width: 100%;
-}
-.div8 img{
-    height: 100%;
-    width: 100%;
-}
+
 /* 
 .div1 { grid-area: 1 / 1 / 2 / 2; }
 .div2 { grid-area: 1 / 2 / 2 / 3; }
