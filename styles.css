@@ -2,13 +2,11 @@ body {
     background-color: #212121;
 }
 
-
-
-
 ::-webkit-scrollbar {  /* Smá halla twist */
     width: 0px;
     background: transparent; 
 }
+
 .headercenter {
     text-align: center;
     color:whitesmoke;
@@ -97,13 +95,13 @@ p{color: whitesmoke;}
 
 .progress-container {
     height: 2px;
-    background: whitesmoke;
+    background: #212121;
     z-index: 1; /* Ensures the progress bar is above other content but below the overlay */
 }
 
 .progress-bar {
-    height: 4px;
-    background: #212121;
+    height: 2px;
+    background:whitesmoke;
     width: 0%;
 }
 
