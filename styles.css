@@ -1,18 +1,19 @@
 body {
     background-color: #212121;
 }
+
+
+
+
 ::-webkit-scrollbar {  /* Smá halla twist */
     width: 0px;
     background: transparent; 
 }
-
 .headercenter {
     text-align: center;
     color:whitesmoke;
 }
-h3{
-    color:whitesmoke
-}
+h3{color:whitesmoke}
 p{color: whitesmoke;}
 
 .win img{
@@ -25,7 +26,6 @@ p{color: whitesmoke;}
     margin-left:4.5%;
     margin-top:-1%;
 }
-
 .fuckyou{
     width:50%;
     justify-content: center;
@@ -96,8 +96,8 @@ p{color: whitesmoke;}
 }
 
 .progress-container {
-    height: 4px;
-    background: black;
+    height: 2px;
+    background: whitesmoke;
     z-index: 1; /* Ensures the progress bar is above other content but below the overlay */
 }
 

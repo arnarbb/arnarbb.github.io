@@ -1,1 +1,39 @@
-<h1>TEST</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grainy Background Example</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  .grainy-background {
+    /* Set the background color */
+    background-color: #333;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  .grainy-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAFklEQVR42mP8//8/AymAiYFMECVGIM0AAGR1L/R1KjRdAAAAAElFTkSuQmCC);
+    opacity: 0.5; /* Adjust for more/less grain */
+    background-size: 100px 100px;
+    pointer-events: none;
+  }
+</style>
+</head>
+<body>
+
+<div class="grainy-background"></div>
+
+</body>
+</html>
