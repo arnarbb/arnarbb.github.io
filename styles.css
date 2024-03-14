@@ -1,6 +1,10 @@
 body {
     background-color: #212121;
 }
+
+
+
+
 ::-webkit-scrollbar {  /* Smá halla twist */
     width: 0px;
     background: transparent; 
