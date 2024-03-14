@@ -80,3 +80,18 @@ p{color: whitesmoke;}
 .div10 { grid-area: 3 / 2 / 4 / 3; }
 .div11 { grid-area: 3 / 3 / 4 / 4; }
 .div12 { grid-area: 3 / 4 / 4 / 5; }
+
+.overlay {
+    position: fixed; /* Fix the position of the overlay */
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    margin-top: 60px; /* Adjust based on the height of your overlay */
+    padding: 20px;
+}
