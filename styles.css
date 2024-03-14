@@ -81,17 +81,33 @@ p{color: whitesmoke;}
 .div11 { grid-area: 3 / 3 / 4 / 4; }
 .div12 { grid-area: 3 / 4 / 4 / 5; }
 
-.overlay {
-    position: fixed; /* Fix the position of the overlay */
+.overlay, .progress-container {
+    position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%; /* Full width */
+    width: 100%;
+}
+
+.overlay {
     color: white;
     padding: 20px;
     text-align: center;
+    z-index: 2; /* Ensures the progress bar is above other content but below the overlay */
+}
+
+.progress-container {
+    height: 4px;
+    background: black;
+    z-index: 1; /* Ensures the progress bar is above other content but below the overlay */
+}
+
+.progress-bar {
+    height: 4px;
+    background: #212121;
+    width: 0%;
 }
 
 .content {
-    margin-top: 60px; /* Adjust based on the height of your overlay */
+    margin-top: 60px; /* djust based on the height of your overlay + progress bar */
     padding: 20px;
 }
