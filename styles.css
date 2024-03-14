@@ -1,7 +1,7 @@
 body {
     background-color: #212121;
 }
-::-webkit-scrollbar {  /* SmÃ¡ halla twist */
+::-webkit-scrollbar {  /* Smá halla twist */
     width: 0px;
     background: transparent; 
 }
@@ -22,7 +22,7 @@ p{color: whitesmoke;}
 }
 .date{
     position:absolute;
-    margin-left:4%;
+    margin-left:4.5%;
     margin-top:-1%;
 }
 
@@ -55,7 +55,7 @@ p{color: whitesmoke;}
     width: 100%;
 }
 
-/* 
+/*  þetta er fyrir 3 rows
 .div1 { grid-area: 1 / 1 / 2 / 2; }
 .div2 { grid-area: 1 / 2 / 2 / 3; }
 .div3 { grid-area: 1 / 3 / 2 / 4; }
@@ -66,6 +66,8 @@ p{color: whitesmoke;}
 .div8 { grid-area: 3 / 2 / 4 / 3; }
 .div9 { grid-area: 3 / 3 / 4 / 4; } */
 
+
+/* þetta er fyrir 4 rows*/
 .div1 { grid-area: 1 / 1 / 2 / 2; }
 .div2 { grid-area: 1 / 2 / 2 / 3; }
 .div3 { grid-area: 1 / 3 / 2 / 4; }
