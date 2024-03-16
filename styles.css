@@ -29,6 +29,12 @@ p{color: whitesmoke;}
     justify-content: center;
     margin: auto;
 }
+
+.fuckyou img{
+    height: 100%;
+    width: 100%;
+}
+
 .parent p{
     text-align: center;
 }
@@ -41,17 +47,6 @@ p{color: whitesmoke;}
     grid-row-gap: 10px;
 }
 
-.div1 img,
-.div2 img,
-.div3 img,
-.div4 img,
-.div5 img,
-.div6 img,
-.div7 img,
-.div8 img {
-    height: 100%;
-    width: 100%;
-}
 
 /*  þetta er fyrir 3 rows
 .div1 { grid-area: 1 / 1 / 2 / 2; }
